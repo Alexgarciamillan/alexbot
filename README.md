@@ -178,7 +178,7 @@ after running it you need to scan the qr
 | Banned user|✅|
 
 
-## To-Do
+## bot-alex
  - Add Media Downloader
  - Add More Feature
  - More refactoring
