@@ -179,7 +179,7 @@ after running it you need to scan the qr
 | Banned user|✅|
 
 
-## To-Do
+## alex-garcia
  - Add Media Downloader
  - Add More Feature
  - More refactoring
