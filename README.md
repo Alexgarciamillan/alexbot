@@ -1,5 +1,4 @@
-https://github.com/Alexgarciamillan/bodysuit/blob/main/IMG-20211217-WA0227.jpg
-<p align="center">
+https://github.com/Alexgarciamillan/bodysuit/blob/main/IMG-20211217-WA0227.jpg<p align="center">
 <img src="https://github.com/Alexgarciamillan/bodysuit/blob/main/IMG-20211217-WA0227.jpg" width="128" height="128"/>
 </p>
 <p align="center">
