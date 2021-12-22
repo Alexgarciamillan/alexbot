@@ -28,7 +28,7 @@
 
 ini semua gratis, jangan pelit ⭐️ ya :D
 <p align="center"><a href="https://www.arugaz.my.id" target="_blank">ArugaZ Rest Api</a>.</p>
-<p align="center"><a href="https://www.facebook.com/profile.php?id=100075049857243" target="_blank">Chat me on Insta</a>.</p>
+<p align="center"><a href="https://www.facebook.com/profile.php?id=100075049857243" target="_blank">Chat me on Facebook</a>.</p>
 </div>
 
 ## Getting Started
