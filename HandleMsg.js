@@ -361,7 +361,7 @@ module.exports = HandleMsg = async (aruga, message) => {
                     if (args[0] == 'on') {
                         var cek = antisticker.includes(chatId);
                         if(cek){
-                            return aruga.reply(from, '*Anti Spam Sticker Detector* sudah aktif di grup ini', id) //if number already exists on database
+                            return bodysuit.reply(from, '*Anti Spam Sticker Detector* sudah aktif di grup ini', id) //if number already exists on database
                         } else {
                             antisticker.push(chatId)
                             fs.writeFileSync('./lib/helper/antisticker.json', JSON.stringify(antisticker))
@@ -378,13 +378,13 @@ module.exports = HandleMsg = async (aruga, message) => {
                             aruga.reply(from, '*[Anti Sticker SPAM]* telah di nonaktifkan\n', id)
                         }
                     } else {
-                        aruga.reply(from, `pilih on / off\n\n*[Anti Sticker SPAM]*\nSetiap member grup yang spam sticker akan di kick oleh bot!`, id)
+                        Bodysuit.reply(from, `pilih on / off\n\n*[Anti Sticker SPAM]*\nSetiap member grup yang spam sticker akan di kick oleh bot!`, id)
                     }
                     break
                     case 'antilink':
-                    if (!isGroupMsg) return aruga.reply(from, 'Maaf, perintah ini hanya dapat dipakai didalam grup!', id)
-                    if (!isGroupAdmins) return aruga.reply(from, 'Gagal, perintah ini hanya dapat digunakan oleh admin grup!', id)
-                    if (!isBotGroupAdmins) return aruga.reply(from, 'Wahai admin, jadikan saya sebagai admin grup dahulu :)', id)
+                    if (!isGroupMsg) return bodysuit.reply(from, 'Maaf, perintah ini hanya dapat dipakai didalam grup!', id)
+                    if (!isGroupAdmins) return bodysuit.reply(from, 'Gagal, perintah ini hanya dapat digunakan oleh admin grup!', id)
+                    if (!isBotGroupAdmins) return bodysuit.reply(from, 'Wahai admin, jadikan saya sebagai admin grup dahulu :)', id)
                     if (args[0] == 'on') {
                         var cek = antilink.includes(chatId);
                         if(cek){
@@ -425,10 +425,10 @@ module.exports = HandleMsg = async (aruga, message) => {
                 await BrainlySearch(tanya.split('.')[0],Number(jum), function(res){
                     res.forEach(x=>{
                         if (x.jawaban.fotoJawaban.length == 0) {
-                            aruga.reply(from, `➸ *Pertanyaan* : ${x.pertanyaan}\n\n➸ *Jawaban* : ${x.jawaban.judulJawaban}\n`, id)
-			    aruga.sendText(from, 'Selesai ✅, donasi kesini ya paypal.me/TheSploit | Pulsa : 085754337101')
+                            Bodysuit.reply(from, `➸ *Pertanyaan* : ${x.pertanyaan}\n\n➸ *Jawaban* : ${x.jawaban.judulJawaban}\n`, id)
+			    Bodysuit.sendText(from, 'Selesai ✅, donasi kesini ya paypal.me/TheSploit | Pulsa : 085754337101')
                         } else {
-                            aruga.reply(from, `➸ *Pertanyaan* : ${x.pertanyaan}\n\n➸ *Jawaban* 〙: ${x.jawaban.judulJawaban}\n\n➸ *Link foto jawaban* : ${x.jawaban.fotoJawaban.join('\n')}`, id)
+                            Bodysuit.reply(from, `➸ *Pertanyaan* : ${x.pertanyaan}\n\n➸ *Jawaban* 〙: ${x.jawaban.judulJawaban}\n\n➸ *Link foto jawaban* : ${x.jawaban.fotoJawaban.join('\n')}`, id)
                         }
                     })
                 })
