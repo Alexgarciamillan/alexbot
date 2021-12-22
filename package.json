@@ -1,20 +1,20 @@
 {
-  "name": "whatsapp-bot",
+  "name": "bodysuit-bot",
   "version": "2.1.0",
-  "description": "Whatsapp Bot - Node Js",
+  "description": "bodysuit-bot - Node Js",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "ArugaZ",
+  "author": "alex-garcia",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ArugaZ/whatsapp-bot.git"
+    "url": "https://github.com/Alexgarciamillan/WhatsApp-bot"
   },
   "bugs": {
-    "url": "https://github.com/ArugaZ/whatsapp-bot/issues"
+    "url": "https://github.com/Alexgarciamillan/WhatsApp-bot"
   },
-  "homepage": "https://github.com/ArugaZ/whatsapp-bot",
+  "homepage": "https://github.com/Alexgarciamillan/WhatsApp-bot",
   "license": "ISC",
   "dependencies": {
     "@open-wa/wa-automate": "^3.1.0",
